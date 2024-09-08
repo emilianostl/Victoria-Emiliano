@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Nombres</title>
+    <!-- Importar la tipografía Ibarra Real Nova desde Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Confirma tu asistencia</h2>
+        <p class="instructions">Ingresa tu nombre para confirmar:</p>
+
+        <form action="guardar_nombre.php" method="POST">
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
